@@ -1,0 +1,17 @@
+body {
+background-color: lightskyblue;
+}
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+  
+}
+label {
+  color: darkblue;
+}
+input {
+  width: auto;
+}
+
+/* how to move my subit button and try to place it in the center of the box, then also how do I align the boxes and change the sizes?*/ 

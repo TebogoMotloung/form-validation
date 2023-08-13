@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form-validation.css"/>
+  </head>
+
+  <br>
+
+  <body>
+    <h1>Registration Form</h1>
+
+    <form action="https://formsubmit.co/tebohotmotloung98@gmail.com" method="POST">
+    
+
+    <label for="user_name">User ID:</label>
+    <input type="text" name="user_name" Required length of 5 to 12 characters>
+<br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" Required, length of 7 to 12 characters>
+<br><br>
+    <label for="name">Name:</label>
+    <input type="text" name="user_name" required, letters only>
+<br><br>
+ <label for="address">Address:</label>
+ <input type="text" name="address" Optional>
+ <br><br>
+ <label for="country">Country:</label>
+ <Select> name="Country:" Required>
+    <option value="South Africa">South Africa</option>
+    <option value="Lesotho">Lesotho</option>
+    <option value="Swaziland">Swaziland</option>
+ </Select>
+ <br><br>
+<label for="zip code">ZIP Code:</label>
+<input type="number" name="zip code" required, numeric only>
+ <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="user_mail" required, valid email address only>
+<br><br>
+<label for="sex">Sex:</label>
+<input type="radio" name="sex" value="Male"> 
+<label for="male">Male</label>
+<input type="radio" name="sex" value="Female" required>
+<label for="female">Female</label>
+<br><br>
+<label for="language">Language:</label>
+<input type="checkbox" name="language" value="English">
+<label for="english">English</label>
+<input type="checkbox" name="language" value="Non-English" required>
+<Label for="Non-English">Non-English</Label> 
+<br><br><br>
+<label for="feedbackStatement">About</label>
+<br>
+    <textarea name="About" cols="50" rows="7" optional ></textarea>
+    <br><br><br>
+    <input type="submit" name="submit" value="Submit" class="submit">
+</form>
+  </body>
